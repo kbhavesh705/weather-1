@@ -1,0 +1,11 @@
+function setBackground(weather) {
+    if(weather == "Rain" ) {
+        background.src = "./resouceres/rainy-weather.jpg";
+    } else if (weather == "snow") {
+        background.src = "./resources/snowy-weather.jpg";
+    } else if (weather == "Clear") {
+        background.src = "./resources/sunny-weather.jpg";
+    } else if (weather == "clouds") [
+        background.src = "./resources/cloudy-weather.jpg";
+}
+    }  
